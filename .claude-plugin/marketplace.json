@@ -1,0 +1,13 @@
+{
+  "name": "claude-cache-heart",
+  "description": "A pixel-art heart in the Claude Code prompt footer showing how warm your prompt cache is.",
+  "owner": {
+    "name": "mileshh515"
+  },
+  "plugins": [
+    {
+      "name": "cache-heart",
+      "source": "./"
+    }
+  ]
+}

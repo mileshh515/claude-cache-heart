@@ -1,0 +1,23 @@
+{
+  "name": "cache-heart",
+  "version": "0.1.0",
+  "description": "A little heart in the prompt footer showing whether the prompt cache is still warm, and for how long.",
+  "author": {
+    "name": "mileshh515"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/mileshh515/claude-cache-heart",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "ttlMinutes": {
+      "type": "string",
+      "title": "Cache TTL (minutes)",
+      "description": "How long the prompt cache lives after a request: 60 on long-TTL sessions, 5 on short-TTL ones.",
+      "options": [
+        "60",
+        "5"
+      ],
+      "default": "60"
+    }
+  }
+}
