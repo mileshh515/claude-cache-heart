@@ -13,10 +13,6 @@
       "type": "string",
       "title": "Cache TTL (minutes)",
       "description": "How long the prompt cache lives after a request: 60 on long-TTL sessions, 5 on short-TTL ones.",
-      "options": [
-        "60",
-        "5"
-      ],
       "default": "60"
     }
   }
